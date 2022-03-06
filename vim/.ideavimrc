@@ -1,0 +1,16 @@
+set surround
+
+nnoremap x "_x
+nnoremap X "_X
+nnoremap d "_d
+nnoremap dd "_dd
+nnoremap D "_D
+vnoremap d "_d
+vnoremap dd "_dd
+
+" go to somewhere (g in normal mode for goto somewhere)
+nnoremap gd :<C-u>action GotoDeclaration<CR>
+nnoremap gu :<C-u>action ShowUsages<CR>
+
+nnoremap <space>h gT
+nnoremap <space>l gt
