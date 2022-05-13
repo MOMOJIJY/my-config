@@ -1,4 +1,8 @@
 set surround
+set hlsearch
+" use system clipboard
+set clipboard^=unnamed,unnamedplus
+nnoremap <silent> <C-l> :nohl<CR><C-l>
 
 nnoremap x "_x
 nnoremap X "_X
